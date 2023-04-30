@@ -40,14 +40,6 @@ variable "domain_name" {
     type = string
 }
 
-variable "web_domain_name" {
-    type = string
-}
-
-variable "mail_domain_name" {
-    type = string
-}
-
 
 variable "web_sub_domain_name" {
     type = string
