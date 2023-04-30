@@ -1,5 +1,5 @@
 data "aws_route53_zone" "hosted_zone" {
-  name = var.web_domain_name
+  name = var.domain_name
 }
 
 resource "aws_route53_record" "web" {
