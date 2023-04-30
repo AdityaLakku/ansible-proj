@@ -36,6 +36,10 @@ variable "mail_count" {
   
 }
 
+variable "domain_name" {
+    type = string
+}
+
 variable "web_domain_name" {
     type = string
 }
