@@ -8,6 +8,17 @@ variable "instance_type" {
     default = "t2.micro"  
 }
 
+variable "access_key" {
+    type = string
+    description = "This variable is used to specify access_key"
+}
+
+variable "secret_key" {
+    type = string
+    description = "This variable is used to specify access_key"
+}
+
+
 variable "key_name" {
     type = string 
 }
