@@ -8,58 +8,58 @@ variable "instance_type" {
     default = "t2.micro"  
 }
 
-variable "access_key" {
+variable "my_access_key" {
     type = string
     description = "This variable is used to specify access_key"
 }
 
-variable "secret_key" {
+variable "my_secret_key" {
     type = string
     description = "This variable is used to specify access_key"
 }
 
 
-variable "key_name" {
+variable "my_key_name" {
     type = string 
 }
 
-variable "web_want" {
+variable "my_web_want" {
     type = bool
     default = true
 }
 
 
-variable "web_count" {
+variable "my_web_count" {
     type = number
     default = 1
   
 }
 
-variable "mail_want" {
+variable "my_mail_want" {
     type = bool
     default = true
 }
 
-variable "mail_count" {
+variable "my_mail_count" {
     type = number
     default = 1
   
 }
 
-variable "domain_name" {
+variable "my_domain_name" {
     type = string
 }
 
 
-variable "web_sub_domain_name" {
+variable "my_web_sub_domain_name" {
     type = string
 }
 
-variable "mail_sub_domain_name" {
+variable "my_mail_sub_domain_name" {
     type = string
 }
 
-variable "local_aws_private_key_path" {
+variable "my_local_aws_private_key_path" {
     type = string
   
 }
